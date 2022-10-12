@@ -1,0 +1,76 @@
+body {
+    background-image: url("SUBWAY20.jpg");
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-image {
+  background-image: url("Subway.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+h1 {
+    font-weight: bold;
+    color: #f0f3bd;
+    margin: 10px 100px;
+    background: #004b23;
+    border: 2px solid #86bbd8 ;
+    border-radius: 15px;
+}
+
+h2 {
+    font-size: 50px;
+    color: #ffc857;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #3d348b ;
+    margin: 50px 120px;
+    border: 6px solid #6a994e;
+    border-radius: 30px;
+}
+
+p {
+    border: 3px dotted #00f5d4;
+    display: block; 
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffd60a;
+    background: #3d405b;
+    border-radius: 10px ;
+}
+
+p:hover {
+   margin-top: 60px;
+   margin-bottom: 20px;
+   padding-top: 10px ;
+   padding-bottom: 10px;
+}
+
+button {
+    border: 3px dashed #ffd60a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: 33e5c76 ;
+    font-weight: bold;
+    width: 220px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+#increment-btn:hover {
+    text-shadow: #ffea00;
+    color: #f0fff1;
+    box-shadow: #fc440f;
+    background: #588157;
+}
+
+#save-btn:hover {
+    color: #f6f4d2;
+    text-shadow: #3a0ca3;
+    background: #3d348b ;
+}
+
